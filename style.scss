@@ -1,0 +1,30 @@
+@import "./header";
+@import "./contanier";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #D4B8C9;
+}
+
+.box{
+    background-image: url('./background.svg');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position-y: bottom;
+    background-size: 60%;
+    background-color: #F7DAE6;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 80%;
+    height: 90%;
+    border-radius: 30px;
+    box-shadow: -18px 15px 11px -10px rgba(146,76,101,0.79);
+
+}

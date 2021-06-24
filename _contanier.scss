@@ -1,0 +1,53 @@
+.contanier{
+    margin-top: 10%;
+    margin-left: 25px;
+    font-family: 'Be Vietnam', sans-serif;
+
+    h5{
+        margin-bottom: 25px;
+        font-style: italic;
+        font-size: 15px;
+        color: #CB7A9B;
+    }
+    
+    h1{
+        margin-bottom: 25px;
+        font-size: 40px;
+    }
+
+    .text__main{
+        letter-spacing: 1px;
+        color: rgb(37, 35, 35);
+    }
+
+    .text__button{
+        margin-top: 5%;
+        
+    }
+
+    .white{
+        margin-right: 20px;
+        padding: 13px 30px;
+        font-size: 22px;
+        border-radius: 25px;
+        border-style: none;
+        background: #CB7A9B;
+        color: white;
+    }
+    .black{
+        padding:16px 20px;
+        font-size: 20px;
+        border-radius: 50%;
+        border-style: none;
+        background:white;
+        color:#CB7A9B ;
+
+    }
+
+    .text__item{
+         margin-top: 30px;
+    }
+
+
+
+}

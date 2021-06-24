@@ -1,0 +1,141 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 20px;
+}
+
+.header .logo {
+  margin-right: auto;
+}
+
+.header .pink {
+  color: #C1517D;
+}
+
+.header .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-right: auto;
+}
+
+.header .nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #87758A;
+}
+
+.header .nav__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 16px;
+}
+
+.header .login {
+  margin-right: 30px;
+  border-style: none;
+  background: transparent;
+  color: #87758A;
+}
+
+.header .en {
+  border-style: none;
+  background: transparent;
+  color: #87758A;
+}
+
+.contanier {
+  margin-top: 10%;
+  margin-left: 25px;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.contanier h5 {
+  margin-bottom: 25px;
+  font-style: italic;
+  font-size: 15px;
+  color: #CB7A9B;
+}
+
+.contanier h1 {
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+.contanier .text__main {
+  letter-spacing: 1px;
+  color: #252323;
+}
+
+.contanier .text__button {
+  margin-top: 5%;
+}
+
+.contanier .white {
+  margin-right: 20px;
+  padding: 13px 30px;
+  font-size: 22px;
+  border-radius: 25px;
+  border-style: none;
+  background: #CB7A9B;
+  color: white;
+}
+
+.contanier .black {
+  padding: 16px 20px;
+  font-size: 20px;
+  border-radius: 50%;
+  border-style: none;
+  background: white;
+  color: #CB7A9B;
+}
+
+.contanier .text__item {
+  margin-top: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #D4B8C9;
+}
+
+.box {
+  background-image: url("./background.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+  background-size: 60%;
+  background-color: #F7DAE6;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  height: 90%;
+  border-radius: 30px;
+  -webkit-box-shadow: -18px 15px 11px -10px rgba(146, 76, 101, 0.79);
+          box-shadow: -18px 15px 11px -10px rgba(146, 76, 101, 0.79);
+}
+/*# sourceMappingURL=style.css.map */
